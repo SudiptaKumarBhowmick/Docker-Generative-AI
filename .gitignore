@@ -1,0 +1,63 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables and configuration
+*.env
+.env.*
+
+# Logs
+*.log
+*.out
+*.err
+
+# Byte-compiled / optimized / compiled files
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Docker-related
+Dockerfile~
+.dockerignore
+*.tar
+*.log
+*.bak
+!requirements.txt
+
+# Transformers and cache
+cache/
+*.cache
+*.h5
+/tmp/transformers_cache/
+
+# Hugging Face cache
+.huggingface/
+hf_home/
+hf_cache/
+*.lock
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python virtual environments
+pyvenv.cfg
+.idea/
