@@ -2,7 +2,8 @@ import os
 from fastapi import FastAPI
 from transformers import pipeline
 
-# Set writable cache directory for Transformers
+## Set writable cache directory for Transformers at runtime.
+## Overrides container-level environment variable (TRANSFORMERS_CACHE) to ensure that the Hugging Face Transformers library uses this location.
 os.environ["TRANSFORMERS_CACHE"] = "/tmp/transformers_cache"
 
 ## create a new FastAPI app instance
